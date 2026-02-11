@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  text-align: center;
+}
+
+.screen {
+  display: none;
+  padding: 20px;
+}
+
+.screen.active {
+  display: block;
+}
+
+button {
+  font-size: 18px;
+  padding: 12px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #4CAF50;
+  color: white;
+  cursor: pointer;
+  touch-action: none;
+}
+
+button.option {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  background: #2196F3;
+}
+
+#timer {
+  font-weight: bold;
+  margin-top: 15px;
+}
